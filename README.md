@@ -2,7 +2,7 @@
 
 # PPSSPP - GTA Stories Weapon Icons Pack
 <p align="center">
-    <img src="./images/logo.webp" width="auto" height="200">
+    <img src="./images/logo.webp" width="auto" height="100">
 </p>
 
 This texture pack for PPSSPP enhances the weapon icon textures in GTA: Liberty City Stories and GTA: Vice City Stories, increasing the resolution from 64x64 to 128x128.
@@ -75,9 +75,11 @@ options:
 
 ## In-Game Screenshots
 
+Click on them to see in full resolution.
+
 <p align="middle">
-    <img src="./images/lcs_ingame.webp" width="auto" height="355">
-    <img src="./images/vcs_ingame.webp" width="auto" height="355">
+    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/lcs_ingame.webp" width="auto" height="100">
+    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/vcs_ingame.webp" width="auto" height="100">
 </p>
 
 </div>
