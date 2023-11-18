@@ -1,12 +1,19 @@
-# PPSSPP - GTA Stories Weapon Icons Pack
+<div align="justify">
 
-![logo](images/logo.png)
+# PPSSPP - GTA Stories Weapon Icons Pack
+<p align="center">
+    <img src="./images/logo.webp" width="auto" height="200">
+</p>
 
 This texture pack for PPSSPP enhances the weapon icon textures in GTA: Liberty City Stories and GTA: Vice City Stories, increasing the resolution from 64x64 to 128x128.
 
-It includes two variants:
-- **Beta:** The icon colors match the beta tear gas icon color.
-- **White:** The icon colors are white, useful for creating new variants.
+In addition to the original gray (#FFB1B1B1) icons, there are the following variations:
+
+- **Blue** (#FF5D86B2): Inspired by MP5K's icon found in GTA: LCS E3 Demo.
+- **Orange** (#FFD97D12): Based on an unused tear gas icon from both games.
+- **White** (#FFFFFFFF): Pure white, which is useful for creating new variations.
+
+**Note:** The hex values ​​mentioned above represent the colors in the texture files. They will be a little different in the game.
 
 ## Installation
 
@@ -35,8 +42,8 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -c <color>, --icon-color <color>
-                        choose the icons color. Valid values are: beta,
-                        original or white (default: original)
+                        choose the icons color. Valid values are: blue,
+                        orange, original or white (default: original)
   -r, --reduce-hash     enable reducedHash in textures.ini file (default:
                         False)
   -t <type>, --hash-type <type>
@@ -46,9 +53,9 @@ options:
 
 ### Examples
 
-1. Generate with beta color, default hash type, and disabled hash reduction for LCS:
+1. Generate with orange color, default hash type, and disabled hash reduction for LCS:
   ```
-  ./build.py -c beta LCS
+  ./build.py -c orange LCS
   ```
 
 2. Generate with default color (original), hash type xxh32, and enabled hash reduction for VCS:
@@ -61,3 +68,16 @@ options:
   ./build.py -c white -t xxh64 LCS
   ```
 
+4. Generate with blue color, hash type xxh32, and enabled hash reduction for VCS:
+  ```
+  ./build.py -c blue -r -t xxh64 VCS
+  ```
+
+## In-Game Screenshots
+
+<p align="middle">
+    <img src="./images/lcs_ingame.webp" width="auto" height="355">
+    <img src="./images/vcs_ingame.webp" width="auto" height="355">
+</p>
+
+</div>

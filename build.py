@@ -57,9 +57,9 @@ def parse_args():
     parser.add_argument(
         "-c",
         "--icon-color",
-        choices=["beta", "original", "white"],
+        choices=["blue", "orange", "original", "white"],
         default="original",
-        help="choose the icons color. Valid values are: beta, original or white",
+        help="choose the icons color. Valid values are: blue, orange, original or white",
         metavar="<color>",
         type=str.lower,
     )
