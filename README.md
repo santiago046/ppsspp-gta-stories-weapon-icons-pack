@@ -78,8 +78,8 @@ options:
 Click on them to see in full resolution.
 
 <p align="middle">
-    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/lcs_ingame.webp" width="auto" height="100">
-    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/vcs_ingame.webp" width="auto" height="100">
+    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/lcs_ingame.webp" width="auto" height="350">
+    <img src="https://raw.githubusercontent.com/santiago046/ppsspp-gta-stories-weapon-icons-pack/main/images/vcs_ingame.webp" width="auto" height="350">
 </p>
 
 </div>
